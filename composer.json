@@ -1,0 +1,33 @@
+{
+    "name": "serkanosna/laravel-tr-validator",
+    "description": "Laravel için T.C. Kimlik No, IBAN, telefon ve plaka gibi Türkiye'ye özgü doğrulama kuralları",
+    "keywords": ["laravel", "validation", "dogrulama", "tc kimlik no", "iban", "türkiye", "php"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Serkan Osna",
+            "email": "serkan.osna@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Serkanosna\\LaravelTrValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Serkanosna\\LaravelTrValidator\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
