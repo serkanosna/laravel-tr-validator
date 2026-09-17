@@ -85,6 +85,10 @@ vendor/bin/phpunit
 
 `Vergi Kimlik No` (VKN) doğrulaması bilinçli olarak bu sürüme dahil edilmedi — algoritması net biçimde doğrulanıp güvenilir test verisiyle desteklenmeden pakete eklenmeyecek. İlerleyen bir sürümde gelebilir.
 
+## Değişiklik günlüğü
+
+Sürümler arasındaki değişiklikler [CHANGELOG.md](CHANGELOG.md) dosyasında.
+
 ## Lisans
 
 MIT. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
